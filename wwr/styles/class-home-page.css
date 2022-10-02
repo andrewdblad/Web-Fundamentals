@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Rock+Salt&display=swap');
+
+
+:root {
+--heading-font: "Rock Salt";
+--paragraph-font: Roboto, Helvetica, sans-serif;
+}
+
+
+nav {
+    text-align: center;
+    background-color: rgb(219, 218, 218);
+}
+
+nav :link {
+    color: rgb(0, 0, 0);
+    font-family: var(--paragraph-font);
+    text-decoration: none;
+}
+
+nav :hover {
+    color: rgb(255, 255, 255);
+    background-color: grey;
+}
+
+h1 {
+    text-align: center;
+    font-family: var(--heading-font);
+    color: grey;
+    background-color: rgb(219, 218, 218);
+
+}
