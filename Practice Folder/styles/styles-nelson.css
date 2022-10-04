@@ -1,0 +1,28 @@
+
+
+body {
+    background-color: pink;
+}
+
+h1:hover {
+     color: white;
+}
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+}
+
+p1, p2 {
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 0 20%;
+}
+p2 {
+    font-weight: bold;
+}
+
+* {
+    border: 2px solid;
+}
