@@ -1,5 +1,15 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Edu+QLD+Beginner&family=Open+Sans&family=Roboto&family=Rock+Salt&family=Source+Sans+Pro&display=swap');
+
+
+
+:root {
+    --Main-Font:'Rock Salt', 'DynaPuff', 'Edu QLD Beginner', cursive;
+    --P-Font:'Roboto', 'Open Sans', 'Source Sans Pro', sans-serif;
+}
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -8,6 +18,7 @@ nav a {
     text-align: center;
     color: #247ba0 ;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -33,11 +44,17 @@ nav {
 nav a:hover {
     background-color: #f25f5c;
     color: #ffe066;
+    padding-top: 0;
+    border-radius: 15px;
 }
 .book, .join {
     background-color: #ffe066;
     color: #247ba0;
     text-decoration: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #f25f5c;
@@ -48,21 +65,26 @@ nav a:hover {
 }
 .msg {
     background-color: #247ba0;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #50514f;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
-    color: #247ba0;
+    color:#247ba0;
 }
 h4 {
-    color: #247ba0;
+    color:#50514f;
 }
 .msg h2 {
     color: #ffe066;
 }
 .msg p {
     color: white;
+    padding-bottom: 15px;
 }
 footer h3 {
     color: #f25f5c;
@@ -79,6 +101,7 @@ footer a:hover{
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -88,4 +111,38 @@ footer p {
 }    
 footer p a:hover {
     text-decoration: underline;
+}
+h2 {
+    color:#50514f;
+    margin: 0;
+}
+nav a, .book, .msg p, .join, footer{
+    font-family: var(--P-Font);
+}
+.home-title, h4, h2 {
+    font-family: var(--Main-Font);
+}
+body{
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}   
+.card-img {
+    border: 10px solid #50514f;
+}
+main section img {
+    box-sizing: border-box;
 }
