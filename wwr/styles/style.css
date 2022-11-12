@@ -219,6 +219,86 @@ main section img {
 .card-img, .mountains {
     width: 100%;
 }
+.wild-encounters-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(9, 150px);
+}
+.wild-encounters-title {
+    color: #247ba0;
+    font-family: var(--Main-Font);
+    grid-column: 2/6;
+    text-align: center;
+}
+.wild-encounters-intro {
+    color: rgb(222, 222, 222);
+    font-family: var(--P-Font);
+    font-size: 22px;
+    grid-column: 1/7;
+    grid-row: 2/3;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    z-index: 1;
+    margin-top: 25px;
+}
+#intro-background {
+    background-color: #247ba0;
+    height: 150px;
+    grid-column: 1/7;
+    grid-row: 2/3;
+    margin-right: 175px;
+    margin-left: 175px;
+    border-radius: 50px;
+}
+#scorpion-background, #sheep-background {
+    background-color: #50514f;
+    height: 925px;
+    margin-top: 75px;
+    border-radius: 50px;
+}
+#scorpion-background {
+    grid-column: 1/4;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+#sheep-background {
+    grid-column: 4/7;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#scorpion-img {
+    grid-column: 1/4;
+    margin-left: 95px;
+    border-radius: 50%;
+    margin-top: -30px;
+}
+#big-horn-sheep-img {
+    grid-column: 4/7;
+    margin-left: 95px;
+    margin-top: -30px;
+}
+#scorpion-img p {
+    color: #dddddd;
+    margin-right: 95px;
+    font-family: var(--P-Font);
+}
+#big-horn-sheep-img p {
+    color: #dddddd;
+    margin-right: 95px;
+    font-family: var(--P-Font);
+}
+.scorpion-title {
+    color: #247ba0;
+    grid-column: 2/4;
+    margin-top: 60px;
+}
+.big-horn-sheep-title {
+    color: #247ba0;
+    grid-column: 5/7;
+    margin-top: 60px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
