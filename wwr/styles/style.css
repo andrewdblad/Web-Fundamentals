@@ -111,9 +111,11 @@ footer a:hover{
 }
 footer p {
     font-size: 1.2em;
+    color: #f25f5c;
 }    
 footer p a:hover {
     text-decoration: underline;
+    
 }
 h2 {
     color:#50514f;
