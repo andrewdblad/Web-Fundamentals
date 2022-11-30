@@ -27,6 +27,7 @@ nav a {
     padding: 35px;
     font-size: 25px;
     font-family: var(--paragraph-font);
+    width: 100%;
  }
  header {
     background-color: #50514f;
@@ -41,7 +42,6 @@ nav {
 nav a:hover {
     background-color: #506D19;
     color: #cff7ca;
-    border-radius: 15px;
 }
 
 #home-grid {
@@ -61,11 +61,27 @@ nav a:hover {
     grid-column: 2/8;
     justify-content: center;
     background-color: #506D19;
-    padding: 20px;
-    margin: -20px;
+    padding: 5px;
+    margin: -5px;
     margin-top: 40px;
-    border-radius: 100%;
+    box-shadow: 10px 10px 50px var(--secondary-color);
 }
+.home-image-container {
+    grid-column: 2/8;
+    position: relative;
+}
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--secondary-color);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: var(--paragraph-font);
+    box-shadow: 7px 7px 10px black;
+  }
+
 .home-text {
     grid-column: 2/8;
     font-family: var(--paragraph-font);
@@ -83,6 +99,7 @@ nav a:hover {
     text-align: center;
     font-family: var(--paragraph-font);
     margin-top: 60px;
+    box-shadow: 0px 0px 10px 1px;
 }
 .disclaimer2 {
     grid-column: 6/8;
@@ -92,9 +109,11 @@ nav a:hover {
     text-align: center;
     font-family: var(--paragraph-font);
     margin-top: 60px;
+    box-shadow: 0px 0px 10px 1px;
 }
 .disclaimer1 h2, .disclaimer2 h2 {
     color: red;
+    
 }
 footer a {
     color: #535252;
