@@ -181,6 +181,7 @@ footer .name-year {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: var(--paragraph-font);
 }
 .blue-div {
     background-color: #7da8e5;
@@ -201,6 +202,7 @@ footer .name-year {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: var(--paragraph-font);
 }
 .black-div {
     background-color: #c3c3c3;
@@ -221,6 +223,7 @@ footer .name-year {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: var(--paragraph-font);
 }
 .double-black-div {
     background-color: #c3c3c3;
@@ -241,6 +244,7 @@ footer .name-year {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: var(--paragraph-font);
 }
 
 
