@@ -246,7 +246,83 @@ footer .name-year {
     justify-content: center;
     font-family: var(--paragraph-font);
 }
+#trail-types-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.flow-trail-img, .tech-trail-img {
+    width: 100%;
+}
+.page-2-title {
+    grid-column: 4/8;
+    text-align: center;
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+}
+.trail-types-disclaimer {
+    grid-column: 4/8;
+    background-color: yellow;
+    text-align: center;
+    font-family: var(--paragraph-font);
+    padding: 15px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 1px;
+}
+.trail-types-disclaimer h2 {
+    color: red;
+}
 
+.flow-trail {
+    margin-top: 75px;
+    grid-column: 2/10;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    font-family: var(--paragraph-font);
+}
+.tech-trail {
+    margin-top: 75px;
+    grid-column: 2/10;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    font-family: var(--paragraph-font);
+}
+.flow-div h2, .tech-div h2 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+.flow-div, .tech-div {
+    background-color: var(--accent1-color);
+    padding: 10px;
+    border-radius: 25px;
+}
+.flow-trail-img, .tech-trail-img {
+    border-radius: 25px;
+}
+.flow-trail p {
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.tech-trail p {
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.trail-types-text {
+    grid-column: 3/9;
+    font-family: var(--paragraph-font);
+    margin-top: 75px;
+}
+.trail-map {
+    width: 100%;
+    grid-column: 2/6;
+}
+.trail-warning {
+    width: 100%;
+    grid-column: 7/10;
+}
 
 
 
